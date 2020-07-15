@@ -1,0 +1,108 @@
+@media screen and (max-width: 1000px) {
+  .header__list {
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-top: 130px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-right: 90px;
+    padding-bottom: 10px;
+  }
+  .menu__item {
+    font-style: 13px;
+  }
+  .header__present {
+      display: flex;
+        justify-content: space-around;
+  }
+  .header__text {
+    width: 270px;
+    border: 7px solid #a8ca3f;
+    border-radius: 14px;
+    background-color: #fff;
+    margin-right: 15px;
+    padding: 0px 8px 0;
+  }
+  .section__title h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+  .section__title p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .section__danger-item {
+    flex-direction: column;
+    margin-bottom: 40px;
+   }
+   .section__danger-item img{
+       padding-bottom: 10px;
+   }
+   .section__danger-item p{
+      padding-left: 0px;
+   }
+   .danger__instructor{
+       font-size: 14px;
+   }
+}
+@media screen and (max-width: 870px) {
+    .footer{
+        padding: 20px 30px;
+    }
+    .footer:after {
+        content: "";
+        position: absolute;
+        top: -7px;
+        left: 59%;
+    }
+    .section__danger{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .section__danger-items{
+        padding: 0px 10px 20px;
+    }
+    .section__title:before{
+        left: 45%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .menu{
+        display: block;
+    }
+    .menu__item{
+        
+        padding: 0px 50px 20px;
+        min-width: 301px;
+        width: 100%;
+    }
+    .header__list {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-top: 260px;
+    }
+    .header__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__text{
+        margin: 0px 0px 10px;
+        padding: 0px 8px 0;
+    }
+    .section__title:before{
+        left: 45%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer {
+        padding: 20px 0px;
+    }
+    .footer:before {
+        left: 37%;
+}
